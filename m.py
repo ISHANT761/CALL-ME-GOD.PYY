@@ -8,9 +8,9 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7219302227:AAHUz5hwIsJefweWl8nINUAyBQjdn0n55wI')
+bot = telebot.TeleBot('7434381480:AAH-oTm3B10WnUpMNHPV1QxMw764nkLr6uY')
 # Join :- https://t.me/FREEddosJoinnow # Admin user IDs
-admin_id = ["5976309679"]
+admin_id = ["5702725200"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -367,16 +367,16 @@ def welcome_plan(message):
 -> 𝗖𝗼𝗻𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝘀 𝗔𝘁𝘁𝗮𝗰𝗸 : 𝟰
 
 𝗣𝗿-𝗶𝗰𝗲 𝗟𝗶𝘀𝘁💸 :
-𝗗𝗮𝘆-->80 𝗥𝘀
-𝗪𝗲𝗲𝗸-->200 𝗥𝘀
-𝗠𝗼𝗻𝘁𝗵-->𝟰𝟬𝟬 𝗥𝘀
+𝗗𝗮𝘆-->150 𝗥𝘀
+𝗪𝗲𝗲𝗸-->450 𝗥𝘀
+𝗠𝗼𝗻𝘁𝗵-->950 𝗥𝘀
 '''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['buy'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f''' ☑️ 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙁𝙤𝙧 @MrHellenG 𝙏𝙤 𝙂𝙚𝙩 ??𝙘𝙘𝙚𝙨𝙨 🍾
+    response = f''' ☑️ 𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙁𝙤𝙧 @MrDdosIshant 𝙏𝙤 𝙂𝙚𝙩 ??𝙘𝙘𝙚𝙨𝙨 🍾
 '''
     bot.reply_to(message, response)
 
